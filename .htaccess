@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine On
+   RewriteCond %{HTTP_HOST} ^(jquery.)?buzzedword.org$
+   RewriteRule ^(/)?$ dev.jquery.com [L]
+</IfModule>
